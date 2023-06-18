@@ -1,0 +1,356 @@
+body {
+    font-family: 'Poppins', sans-serif;          
+    overflow-x: hidden;
+}
+
+img.logo {
+    width: 20%;
+    margin: 15px;
+
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fbb94e;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: black
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+img.fascia1 {
+    width: 90%;
+    margin-left: 30px;
+
+}
+
+h2.titolo {
+    font-size: 50px;
+    color: #fbb94e;
+    line-height: 55px;
+    text-align: left;
+    margin-top: 10px;
+margin-bottom: 20px;
+font-weight: 600;
+
+}
+
+.fascia1 {
+    margin:10% 0;
+
+}       
+
+.p1 {
+    font-family: Poppins;
+line-height: 30px;
+font-weight: 400;
+color: #000;
+font-size: 16px;
+}
+h4.citazione {
+    color: #187b48; 
+    font-weight: 500;
+    text-align: center;
+    margin-top: 8%;
+    line-height: 1.3em;
+font-size: 1.8em;
+}
+
+h4.numeri {
+    font-size: 50px;
+    color: #fbb94e;
+    line-height: 50px;
+    text-align: left;
+    font-weight: 500;
+
+}
+
+h5.titolo-numeri {
+    font-size: 34px;
+    color: #187c48;
+    line-height: 34px;
+    text-align: left;
+    font-weight: 600;
+
+}
+
+p.testo {
+font-family: Poppins;
+line-height: 30px;
+font-weight: 400;
+color: #000;
+font-size: 16px;
+margin-top: 50px;
+}
+
+img.img-lamp {
+width: 90%;
+
+}
+
+.row-numeri {
+    margin-top: 10%;
+}
+
+img.img-loghi {
+width: 80%;
+border: 1px solid black;
+padding: 10px;
+margin-bottom: 30px;
+}
+
+footer {
+background-color: #f4f4f4;
+padding: 5%;
+padding-bottom: 10%;
+}
+
+li.img-lista {
+list-style: none;
+float: left;
+margin-left: -30px;
+}
+img.img-list {
+width: 30%;
+}
+
+#container h2 {
+color: black;
+text-align: center;
+text-transform: uppercase;
+font-size: 40px;
+font-weight: bold;
+font-weight: 800;
+
+}
+
+#container {
+text-align: center;
+text-transform: uppercase;
+font-size: 36px;
+font-weight: bold;
+margin-top: 10%;
+}
+
+
+#flip {
+height:50px;
+overflow:hidden;
+}
+
+#flip > div > div {
+color:#fff;
+padding:4px 12px;
+height:45px;
+margin-bottom:45px;
+display:inline-block;
+}
+
+#flip div:first-child {
+animation: show 5s linear infinite;
+}
+
+#flip div div {
+background:#808080;
+}
+#flip div:first-child div {
+background:#187c48;
+}
+#flip div:last-child div {
+background:#fbb94e;
+}
+
+@keyframes show {
+0% {margin-top:-270px;}
+5% {margin-top:-180px;}
+33% {margin-top:-180px;}
+38% {margin-top:-90px;}
+66% {margin-top:-90px;}
+71% {margin-top:0px;}
+99.99% {margin-top:0px;}
+100% {margin-top:-270px;}
+}
+
+p.testo-centrato {
+text-align: center;
+font-size: large;
+margin-top: 5%;
+font-weight: 300;
+}
+
+h4.titolino {
+line-height: 30px;
+font-weight: 600;
+font-size: 30px;
+text-align: center;
+margin-top: 5%;
+color: #FBB94E;
+}
+
+h3.persone {
+line-height: 36px;
+font-weight: 600;
+font-size: 36px;
+}
+
+h4.persone {
+line-height: 24px;
+font-weight: 600;
+font-size: 24px;
+color: #FBB94E;
+}
+
+a:visited {
+text-decoration: underline;
+}
+
+a {
+    color: white;
+    }
+
+.veronica {
+width: 450px;
+height: 450px;
+background-image: url(../img/vero-seria-stayhuman-team.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+transition: all 1s ease;
+margin-top: 10% !important;
+margin: 0 auto;
+}
+.veronica:hover {
+background-image: url(../img/vero-funny-stayhuman-team.png);
+transition: .5s;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.guido{
+width: 450px;
+height: 450px;
+background-image: url(../img/guido-seria-stayhuman-team.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+transition: all 1s ease;
+margin-top: 10% !important;
+margin: 0 auto;
+}
+.guido:hover {
+background-image: url(../img/guido-funny-stayhuman-team.png);
+transition: .5s;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.fra {
+width: 450px;
+height: 450px;
+background-image: url(../img/fra-seria-stayhuman-team.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+transition: all 1s ease;
+margin-top: 10% !important;
+margin: 0 auto;
+}
+.fra:hover {
+background-image: url(../img/fra-funny-stayhuman-team.png);
+transition: .5s;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.spalla {
+width: 450px;
+height: 450px;
+background-image: url(../img/spalla-seria-stayhuman-team.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+transition: all 1s ease;
+margin-top: 10% !important;
+margin: 0 auto;
+}
+.spalla:hover {
+background-image: url(../img/spalla-funny-stayhuman-team.png);
+transition: .5s;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.giu {
+width: 450px;
+height: 450px;
+background-image: url(../img/giu-seria-stayhuman-team.png);
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+transition: all 1s ease;
+margin-top: 10% !important;;
+margin: 0 auto;
+}
+.giu:hover {
+background-image: url(../img/giu-funny-stayhuman-team.png);
+transition: .5s;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+p.team {
+line-height: 30px;
+font-weight: 400;
+color: #000;
+font-size: 16px;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
