@@ -352,6 +352,7 @@ line-height: 30px;
 font-weight: 400;
 color: #000;
 font-size: 16px;
+font-family: 'Poppins';
 }
 
 .display-no {
@@ -361,6 +362,24 @@ font-size: 16px;
 .margin-top {
   margin-top: 10%;
 }
+
+.margin-top-less {
+  margin-top: 5%;
+}
+
+h1.titolo {
+  font-size: 50px;
+  color: #187c48;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 10%;
+}
+
+li {
+font-size: 16px;
+    font-family: 'Poppins';
+  }
 
 @media screen and (max-height: 450px) {
   .overlay {overflow-y: auto;}
