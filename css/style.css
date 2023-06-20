@@ -21,6 +21,24 @@ img.logo {
   transition: 0.5s;
 }
 
+ul {
+  padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+ul.lista {
+  font-size: 16px;
+}
+
+a.team {
+  color: #fbb94e;
+}
+
+a.team:hover {
+  color: #383838;
+}
+
 .overlay-content {
   position: relative;
   top: 25%;
@@ -78,6 +96,7 @@ font-weight: 400;
 color: #000;
 font-size: 16px;
 }
+
 h4.citazione {
     color: #187b48; 
     font-weight: 500;
@@ -133,7 +152,6 @@ margin-bottom: 30px;
 footer {
 background-color: #f4f4f4;
 padding: 5%;
-padding-bottom: 10%;
 }
 
 li.img-lista {
@@ -342,8 +360,13 @@ color: #000;
 font-size: 16px;
 }
 
+.display-no {
+  display: none;
+}
 
-
+.margin-top {
+  margin-top: 10%;
+}
 
 @media screen and (max-height: 450px) {
   .overlay {overflow-y: auto;}
@@ -355,8 +378,41 @@ font-size: 16px;
   }
 }
 
-@media only screen and (max-width: 350px) {
-  body {
-    background-color: lightblue;
-  }
+@media only screen and (max-width: 550px) {
+  
+
+  img.logo {
+    width: 70%;
+    margin: 15px;
+
+}
+
+img.img-loghi {
+  width: 100%;
+}
+h4.numeri, h5.titolo-numeri {
+  text-align: center;
+}
+
+.no-display {
+  display: none;
+}
+
+
+.display-no {
+  display: block !important; 
+}
+
+.guido, .fra, .veronica, .giu, .spalla {
+  margin-left: -22px;
+}
+
+h3.persone, h4.persone {
+  text-align: center;
+}
+
+.margin-less {
+  margin-top: 5%;
+}
+
 }
